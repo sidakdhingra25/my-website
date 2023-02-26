@@ -6,18 +6,24 @@ body {
 }
 
 h1 {
-
+    color: #66BFBF;
     margin: 0 auto 0 auto;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
+    font-size: 2rem;
+
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+
 }
 
 .top {
@@ -48,7 +54,42 @@ h3 {
     width: 200px;
 }
 
-.skill {
-    width: 300px;
-    height: 300px
+.guitar {
+    width: 25%;
+
+
+}
+
+.footer-link {
+    color: #11999E;
+}
+
+.skill-row-top-container{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    display: flex;
+    gap: 30px;
+
+}
+
+.chillie {
+    width: 25%;
+}
+.comp{
+     
+}
+.skill-row-bottom-container{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+   
+}
+.skill-row-bottom-container img{
+    width: 25%;
 }
